@@ -8,10 +8,10 @@ namespace StudentTable
 {
     internal class Student
     {
-        public string major;
-        public string name;
-        public int student_number;
-        public int math_score;
-        public int english_score;
+        public string major { set; get; }
+        public string name { set; get; }
+        public int student_number { set; get; }
+        public int math_score { set; get; }
+        public int english_score { set; get; }
     }
 }
