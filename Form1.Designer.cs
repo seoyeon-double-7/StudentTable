@@ -70,52 +70,62 @@ namespace StudentTable
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.SystemColors.Info;
+            this.button1.Font = new System.Drawing.Font("휴먼둥근헤드라인", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button1.Location = new System.Drawing.Point(113, 61);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(124, 68);
             this.button1.TabIndex = 1;
             this.button1.Text = " 모두보기";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.SystemColors.Info;
+            this.button2.Font = new System.Drawing.Font("휴먼둥근헤드라인", 9F);
             this.button2.Location = new System.Drawing.Point(261, 61);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(136, 68);
             this.button2.TabIndex = 2;
             this.button2.Text = "전공순으로 정렬하기";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
+            this.button3.BackColor = System.Drawing.SystemColors.Info;
+            this.button3.Font = new System.Drawing.Font("휴먼둥근헤드라인", 9F);
             this.button3.Location = new System.Drawing.Point(425, 61);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(140, 68);
             this.button3.TabIndex = 3;
             this.button3.Text = "수학점수 80점 이상 학생보기";
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
+            this.button4.BackColor = System.Drawing.SystemColors.Info;
+            this.button4.Font = new System.Drawing.Font("휴먼둥근헤드라인", 9F);
             this.button4.Location = new System.Drawing.Point(598, 61);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(125, 68);
             this.button4.TabIndex = 4;
             this.button4.Text = "영어점수 내림차순으로 보기";
-            this.button4.UseVisualStyleBackColor = true;
+            this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
+            this.button5.BackColor = System.Drawing.SystemColors.Info;
+            this.button5.Font = new System.Drawing.Font("휴먼둥근헤드라인", 9F);
             this.button5.Location = new System.Drawing.Point(743, 61);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(113, 68);
             this.button5.TabIndex = 5;
             this.button5.Text = "이름순으로 정렬하기";
-            this.button5.UseVisualStyleBackColor = true;
+            this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // majorDataGridViewTextBoxColumn
@@ -161,6 +171,7 @@ namespace StudentTable
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(963, 696);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
